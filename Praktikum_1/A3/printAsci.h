@@ -1,0 +1,1 @@
+void printAsci(int s);
