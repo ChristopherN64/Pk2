@@ -1,5 +1,5 @@
-calcggt: calcggt.o ggt.o 
-	gcc -o rechne ggt.o calcggt.o 
+calcggt.exe: calcggt.o ggt.o ggt.h
+	gcc -o calcggt ggt.o calcggt.o 
 
 ggt.o: ggt.c
 	gcc -c ggt.c

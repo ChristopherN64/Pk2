@@ -1,4 +1,4 @@
-prog : main.c libmy.a
+prog.exe : main.c libmy.a printAsci.h einMalEins.h intToBin.h
 	gcc -o prog main.c libmy.a
 
 libmy.a : printAsci.o einMalEins.o intToBin.o
