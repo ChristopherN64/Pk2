@@ -1,7 +1,5 @@
 #include <stdio.h>
-#include "..\A3\printAsci.h"
-#include "..\A4\einMalEins.h"
-#include "..\A5\intToBin.h"
+#include "libmy.h"
 
 int main(int argc, char const *argv[])
 {
