@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include "hashtable.h"
 
-#define TABLE_SIZE 2
-#define C 1
+
 
 
 

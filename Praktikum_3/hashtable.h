@@ -1,3 +1,6 @@
+#define TABLE_SIZE 2
+#define C 1
+
 int h(int a);
 int getNextAusweichIndex(int iIndex);
 int insert(int a);
