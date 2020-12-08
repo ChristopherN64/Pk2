@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <limits.h>
 
 
 int main(int argc, char const *argv[])
@@ -13,9 +14,9 @@ int main(int argc, char const *argv[])
 
     printf("strcat von abc und defhij: %s\n",stringcat("abc"," defhij"));
 
-    printf("Fakultaet von 10: %ld",fakultaet(10));
+    printf("Fakultaet von 49: %f",fakultaet(49));
 
-    printf("Bin von 10/0 , 10/1 , 10/10 , 49/6: %.1f , %.1f , %.1f , %.1f\n\n",binominal(10,0),binominal(10,1),binominal(10,10),binominal(49,6));
+    printf("\nBin von 10/0 , 10/1 , 10/10 , 49/6: %.1f , %.1f , %.1f , %.1f\n\n",binominal(10,0),binominal(10,1),binominal(10,10),binominal(49,6));
     return 0;
 }
 
