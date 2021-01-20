@@ -31,6 +31,8 @@ int main()
     cout << "Liste2:" << endl;
     liste2.visit_all(ausgabe);
 
+
+    cout << "ENDE" << endl;
     return 0;
 }
 

@@ -3,7 +3,6 @@
 
 #include <string>
 
-
     class Medium{
         private:
             static int iObjectCount;

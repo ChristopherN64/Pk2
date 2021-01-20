@@ -1,3 +1,5 @@
+all: main.exe main.o medium.o
+
 main.exe : main.o medium.o
 	g++ -o main.exe medium.o main.o 
 
