@@ -1,5 +1,8 @@
 *.o
 *.exe
 *.a
+*.csproj
 bin
 obj
+net5.0
+
